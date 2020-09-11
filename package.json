@@ -3,6 +3,9 @@
   "description": "Uniswap Interface",
   "homepage": ".",
   "private": true,
+  "dependencies": {
+    "@uniswap/sdk": "./forks/uniswap-sdk/dist"
+  },
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
     "@popperjs/core": "^2.4.4",
@@ -105,8 +108,5 @@
       "last 1 safari version"
     ]
   },
-  "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "@uniswap/sdk": "./forks/uniswap-sdk"
-  }
+  "license": "GPL-3.0-or-later"
 }

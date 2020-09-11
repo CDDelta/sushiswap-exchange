@@ -1,5 +1,5 @@
 // the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = window.location.origin + '/tokens.json'
+export const DEFAULT_TOKEN_LIST_URL = window.location.origin + window.location.pathname + 'tokens.json'
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [
   DEFAULT_TOKEN_LIST_URL
